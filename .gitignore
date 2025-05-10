@@ -1,0 +1,45 @@
+# Ignore virtual environment folders
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore PySpark temporary directories
+_metastore/
+spark-warehouse/
+.derby/
+
+# Ignore system-specific files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore log and temporary files
+*.log
+*.out
+*.tmp
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore notebook and SQLite checkpoints
+.ipynb_checkpoints/
+*.sqlite3
+*.db
+
+# Ignore IDE configuration folders
+.vscode/
+.idea/
+
+# Ignore distribution and packaging files
+dist/
+build/
+*.egg-info/
+
+# Ignore generated datasets
+*.csv
+*.parquet
+
+# Ignore local environment variables
+.env
